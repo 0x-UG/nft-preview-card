@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(217, 54%, 11%);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	margin: 0;
+}
+
+.nft {
+	width: 100%;
+	border-radius: 1em;
+}
+
+.container {
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 1em;
+	margin: 1em;
+}
+
+.card {
+	padding: 2em;
+}
+
+.eth-balance {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+}
